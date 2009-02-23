@@ -1,0 +1,14 @@
+x^2sin(y^2)
+x^2-y^2
+x/(3)+sin(y)
+ln(xy)
+ln(abs(xy)+1)
+2x+3y
+3x+2y
+x/(3)+sin(y)
+sin^2(x)+cos^2(y)
+xabs(sin(y))
+2x(y+1)/x^2+2
+(x^2+y^2)/(3000)
+1/(x*100)
+x/y

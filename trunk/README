@@ -1,0 +1,28 @@
+1. Requirements:
+ * SDL (http://www.libsdl.org/)
+ * SDL_ttf (http://www.libsdl.org/projects/SDL_ttf/)
+ * SDL_draw (http://sdl-draw.sourceforge.net/)
+ * C compiler.
+2. Compilation:
+ * You need to specify standard - c99. For gcc, use parameter -std=c99.
+ * Example command line for gcc is in compile file. It can be used to compile
+   on POSIX systems.
+3. Usage:
+ * Available functions are specified in functions.txt (this name can be changed
+   in source code, in FUNCTION_FILE constant.There are some symblos can be used:
+     - x,y - variables
+     - x^n, y^n - variables rised to power n, 1<n<10.
+     - sin(..) - sinus of statement in parenthesis.
+     - cos(..) - cosinus of statement in parenthesis.
+     - sin^n(..) and cos^n(..) - for sinus and cosinus in n-th power, 1<n<10.
+     - ln(..) - natural logarithm of statement in parenthesis
+     - /(..) - divides everything before "/" by statement in parenthesis.
+     - +/- - addition, substraction of monomials.
+     - (..) - makes statement in parenthesis be calculated first.
+   two symbols connected without +/- are multiplied (mades monomial).
+
+ * You can move camera with + and - buttons by X and Y.
+ * You can zoom in and zoom out with "Zoom in" and "Zoom out" buttons.
+ * You can change current function, by click on f'(x,y)=. Right click for next,
+   left click for previous.
+ * You can draw curve by clicking point included by wanted curve.
